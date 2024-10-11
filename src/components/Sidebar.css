@@ -1,0 +1,65 @@
+.logos{
+    width: 70px;
+    border-radius: 50%;
+}
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: white;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 0px;
+}
+
+
+.link{
+    display: flex;
+    color: gray;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background: linear-gradient(90deg,rgb(193, 220, 237), whitesmoke, white, white, white);
+    color: blue;
+    transition: all 0.5s;
+}
+.active{
+    background: linear-gradient(90deg,rgb(193, 220, 237), whitesmoke, white, white, white);
+    color: blue;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+.accaunt{
+    width: 170px;
+    height: 60px;
+    background-color: whitesmoke;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+}
+.accaunt img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
